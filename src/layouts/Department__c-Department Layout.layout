@@ -58,7 +58,13 @@
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
+        <excludeButtons>MassChangeOwner</excludeButtons>
         <fields>NAME</fields>
+        <fields>Purpose_of_Trip__c</fields>
+        <fields>Status__c</fields>
+        <fields>Trip_Start_Date__c</fields>
+        <fields>Trip_End_Date__c</fields>
+        <fields>Destination_State__c</fields>
         <relatedList>Travel_Approval__c.Department__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
